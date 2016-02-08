@@ -1,0 +1,56 @@
+  <Grid Width="500"  HorizontalAlignment="Left"  Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="Title 1" FontSize="24" Margin="20,20,0,20"   />
+        <TextBlock Text="Title 2" FontSize="24" Margin="20,20,0,20" Grid.Row="1"/>
+        <TextBlock Text="Title 3" FontSize="24" Margin="20,20,0,20" Grid.Row="2"/>
+
+        <StackPanel Grid.Row="0" Grid.Column="1">
+            <StackPanel>
+                <TextBlock TextWrapping="Wrap" Margin="100,50,0,0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus, mi nec fermentum congue, turpis nibh porttitor ex, sed commodo neque eros non libero. Donec mauris felis, malesuada nec consectetur et, pharetra in ante. Praesent nec hendrerit purus. Ut vel nunc id nisl volutpat porta. Cras in convallis ipsum. Integer id sollicitudin ex. Ut sed iaculis nisl.
+                </TextBlock>
+            </StackPanel>
+            <StackPanel  Orientation="Horizontal" HorizontalAlignment="Left" Height="30" Width="300" Margin="100,0,0,0">
+                <Rectangle Width="100" Fill="Green" />
+                <Rectangle Width="100" Fill="Black"/>
+                <Rectangle Width="100" Fill="Red" />
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <StackPanel>
+                <TextBlock TextWrapping="Wrap" Margin="100,50,0,0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus, mi nec fermentum congue, turpis nibh porttitor ex, sed commodo neque eros non libero. Donec mauris felis, malesuada nec consectetur et, pharetra in ante. Praesent nec hendrerit purus. Ut vel nunc id nisl volutpat porta. Cras in convallis ipsum. Integer id sollicitudin ex. Ut sed iaculis nisl.
+                </TextBlock>
+            </StackPanel>
+            <StackPanel  Orientation="Horizontal" HorizontalAlignment="Left" Height="30" Width="300" Margin="100,0,0,0">
+                <Rectangle Width="100" Fill="Red" />
+                <Rectangle Width="100" Fill="Black"/>
+                <Rectangle Width="100" Fill="Blue" />
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Grid.Column="1">
+            <StackPanel>
+                <TextBlock TextWrapping="Wrap" Margin="100,50,0,0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus, mi nec fermentum congue, turpis nibh porttitor ex, sed commodo neque eros non libero. Donec mauris felis, malesuada nec consectetur et, pharetra in ante. Praesent nec hendrerit purus. Ut vel nunc id nisl volutpat porta. Cras in convallis ipsum. Integer id sollicitudin ex. Ut sed iaculis nisl.
+                </TextBlock>
+            </StackPanel>
+            <StackPanel  Orientation="Horizontal" HorizontalAlignment="Left" Height="30" Width="300" Margin="100,0,0,0">
+                <Rectangle Width="100" Fill="Red" />
+                <Rectangle Width="100" Fill="Yellow"/>
+                <Rectangle Width="100" Fill="Blue" />
+            </StackPanel>
+        </StackPanel>
+
+    </Grid> 
